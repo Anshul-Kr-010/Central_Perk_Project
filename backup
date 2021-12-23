@@ -1,0 +1,199 @@
+for HTML:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Best Coffee Store in India.</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+</head>
+<body style="background-color:#ffecb8;">
+	<div class="fixed">
+	<span style="border:3px solid red; display: inline;">This is span 1.</span>
+	<span style="border: 3px solid green; display:inline;">This is span 2.</span>
+	</div>
+	<p></p>
+	<div class="first-div">
+		This is website is just a prototype. Although it's nowhere near an aesthetically empowered website, but still evreything requires an enthusiastic start.
+	</div>
+	<p></p>
+	<ul class="list">
+		<li>Welcome to my website.</li>
+		<li>Please refer to the menu below.</li>
+		<li>If yu face any difficulties try contacting us.</li>
+	</ul>
+	
+	<ol type="1">
+		<h2>How we make the shittiest coffee:</h2>
+		<li>First we steal the shipment from the merchants.</li>
+		<li>Then we put the shipment in sanitizer.</li>
+		<li>And then in warm water.</li>
+		<li>Voila! Enjoy your coffee.</li>
+	</ol>
+	<nav>
+		<a href="index.html">Home |</a>
+		<a href="product.html">Product |</a>
+		<a href="contacts.html">Contacts</a>
+	</nav>
+	<div>
+	<table class="pricing-table">
+		<caption class="heading">Coffee Menu</caption>
+			<tr>
+				<th>Coffee Name</th>
+				<th>Price</th>
+				<th>Availibilty</th>
+			</tr>
+			<tr class="available">
+				<td>Mocha</td>
+				<td>7$</td>
+				<td>Available</td>
+			</tr>
+			<tr class="available">
+				<td>Cappuccino</td>
+				<td>9$</td>
+				<td>Available</td>
+			</tr>
+			<tr class="out-of-stock">
+				<td>Dalgona</td>
+				<td><del>$15</del>$10</td>
+				<td>Out of Stock.</td>
+			</tr>
+		
+	</table>
+	</div>
+	<p></p>
+	<div class="available-coffee" id="mocha" style="display: inline-block;">
+		<h4>Mocha</h4>
+		<img src="mocha.png" class="div-img">
+	</div>
+	<div class="available-coffee" style="display:inline-block;">
+		<h4>Cappuccino</h4>
+		<img src="cappuccino.png" class="div-img" >
+	</div>
+	<p></p>
+	
+	<div class="available-coffee" style="display:inline-block;">
+		<h4>Coffee</h4>
+		<img src="dalgona.jpg" class="da"> 
+	</div>
+	<div class="available-coffee" style="display:inline-block;">
+		<h4>Kookie</h4>
+		<img src="kookie.jpg" class="da">
+	</div>
+	<p></p>
+
+	<footer class="footer">
+		<div>
+			<a href="index.html">Home |</a>
+			<a href="product.html">Products |</a>
+			<a href="contacts.html">Contacts</a>
+		</div>
+		<div>
+			Copyright @coffeecave.pvt.ltd
+		</div>
+	</footer>
+</body>
+</html>
+
+for CSS:///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+.list{
+	list-style-type: circle;
+}
+.available-coffee{
+	height: 5%;
+	width: 10%;
+	font-size:17px; 
+	border: 2px solid red;
+	background-color: yellow;
+	display: inline-block;
+}
+
+.div-img{
+	height: 65%;
+	width: 70%;
+}
+
+.da{
+	height:70% ;
+	width:90% ;
+}
+
+
+#mocha{
+	background-color: yellow;
+	
+	border-top-style: solid;
+	border-top-color: red;
+	
+	border-bottom-style: solid;
+	border-bottom-color:red;
+	
+	border-left-style: solid;
+	border-right-style: solid;
+
+	font-size: 14px;
+	font-style: solid;
+	font-family: georgia;
+}
+
+.pricing-table{
+	width: 100%;
+	border: 8px solid maroon;
+	font-family: "arial black","Gadget";
+	text-align: center;
+}
+
+.heading{
+	color:brown;
+	font-size:40px;
+}
+
+th{
+	background-color: brown;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+	border:2px solid orange;
+}
+
+td{
+	background-color:none;
+	height: 30px;
+	color: black;
+	font-size: 15px;
+	font-style: italic;
+	border:2px solid orange;
+}
+
+.available:hover{
+	background-color: #72ff59;
+}
+
+.out-of-stock:hover{
+	background-color: #ff5454;
+}
+.footer{
+	text-align: center;
+	background-color:#ffdb78;
+	color: black;
+	height: 30%;
+	width: 100%;
+	font-size: 20px;
+}
+.first-div{
+	height: 20px;
+	border: 2px solid red;
+	font-size: 20px;
+	padding: 0px 10px 0px 10px;
+	position:relative;
+	top: 10px;
+}
+.fixed{
+	background-color: none;
+	position: fixed;
+	top: 0px;
+}

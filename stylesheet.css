@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+}
+.coffee-header{
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #fae3af ;
+	border: 5px solid brown;
+	z-index: 100;
+}
+.div-img{
+	height: 250px;
+	width: 250px;
+	position: relative;
+	top: -50px;
+}
+.logo-text{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	font-weight: 900;
+	font-family:'helvetica neue';
+}
+.nav-bar{
+	float: right;
+	position: relative;
+	top: 50px;
+}
+.div-logo{
+	height: 100px;
+	float: left;
+}
+.nav-bar a{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: "Helvetica neue";
+	height: 75px;
+	padding-right: 40px;
+	display: inline-block;
+	color: brown;
+}
+.site-content{
+	position: absolute;
+	top: 125px;
+	width: 100%;
+}
+.image-content{
+	background-image: url(CP.jpg);
+	height: 770px;
+	width: 100%;
+	text-align: center;
+}
+.quote{
+	font-size:50px;
+	font-family: "helvetica neue";
+	font-weight: bold ;
+	color: white;
+	position: relative;
+	top: 35px;
+}
+.cards{
+	display: inline-block;
+	text-align: center;
+	padding: 40px;
+	float: left;
+	position: relative;
+	left: 70px;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+#product{
+	text-align: center;
+	font-size: 35px;
+	font-family: "helvetica neue";
+	font-style: italic;
+	background-color: darkgreen;
+	border: 10px solid black;
+	color: white;
+	position: relative;
+	top: 20px ;
+}
+.order{
+	width: 100%;
+}
+.txt{
+	text-align: center;
+	font-size: 40px;
+}
+.sm{
+	width: 50%;
+	margin: 0 auto;
+}
+.mon{
+	background-image: url(mon.jpg);
+	width:23%;
+	height: 50%;
+	position: absolute;
+	top: 1500px;
+	right: 10px;
+}
+.chan{
+	background-image: url(chan.jpg);
+	width: 23%;
+	height: 50%;
+	position: absolute;
+	top: 1500px;
+	left: 10px;
+}
